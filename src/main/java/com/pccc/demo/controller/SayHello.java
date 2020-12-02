@@ -11,4 +11,9 @@ public class SayHello {
     public  String  hello(){
         return  " hello";
     }
+
+    @RequestMapping("/hot")
+    public  String  hot(){
+        return  " hot";
+    }
 }
